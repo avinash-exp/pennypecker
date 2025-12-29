@@ -37,7 +37,7 @@ func TestVersionFlag(t *testing.T) {
 			if err := cmd.Run(); err != nil {
 				t.Fatalf("failed to build binary: %v", err)
 			}
-			defer os.Remove("../pennypecker_test")
+			defer func() { _ = os.Remove("../pennypecker_test") }() // don't care if cleanup fails
 
 			// Run with version flag
 			cmd = exec.Command("../pennypecker_test", tt.flag)
