@@ -1,8 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
+	"os"
 )
 
 // version is set during build via ldflags
