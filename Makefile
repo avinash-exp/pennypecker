@@ -26,7 +26,7 @@ clean:
 
 test:
 	@echo "==> Running tests..."
-	go test -v ./...
+	go test -v ./tests/...
 
 fmt:
 	@echo "==> Formatting code..."
