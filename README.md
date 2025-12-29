@@ -1,5 +1,9 @@
 # Pennypecker
 
+<p align="center">
+  <img src="assets/icon-2.png" alt="Pennypecker Logo" width="200">
+</p>
+
 > **"A Terraform provider that pecks away at cloud costs by blocking deployments that exceed budgets or trigger anomalies."**
 
 [![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go)](https://go.dev/)
