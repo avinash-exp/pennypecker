@@ -45,6 +45,8 @@ Enable **proactive cost governance** by exposing live AWS cost data, forecasts, 
 ```bash
 git clone https://github.com/avinash-exp/pennypecker.git
 cd pennypecker
+make init
+make tidy
 make build
 ```
 
